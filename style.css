@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    margin-top: 15px;
+    right: 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: justify;
+}
+
+.logo-container img {
+    padding-left: 70px;
+    max-width: 100px;
+}
+
+.logo-container p {
+    margin-top: 40px;
+    margin-right: 100px;
+}
+
+.navlist {
+    display: flex;
+}
+
+.navlist li {
+    list-style: none;
+    text-decoration: none;
+    padding: 25px 25px;
+    font-family: Google Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+button {
+    padding: 8px 20px;
+    display: flex;
+    border-radius: 12px;
+    font-family: Google Sans;
+    font-weight: 500;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    margin-left: 180px;
+}
+
+.section-1 {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-rows: 300px 100px 100px;
+}
+
+.item1 h1 {
+    font-size: 70px;
+}
+
+.item1 p {
+    font-size: 20px;
+}
+
+.item2,
+.item3 {
+    margin-top: 50%;
+}
+
+.section-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 200px);
+    gap: 20px;
+}
+
+.one {
+    background-color: black;
+    grid-column: span 2;
+    border-radius: 12px;
+}
+
+.image1 {
+    padding-left: 70%;
+    width: 250px;
+    float: left;
+    height: 250px;
+    margin-top: 5%;
+    margin-right: 40%;
+}
+
+.image2 {
+    width: 250px;
+    position: absolute;
+    padding-right: 70%;
+    object-position: center;
+}
+
+.one p {
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.two {
+    background-color: rgb(219, 219, 219);
+    grid-row: span 2;
+    border-radius: 12px;
+}
+
+.two-content {
+    background-color: black;
+    width: 70%;
+    height: 50%;
+    margin-top: 65%;
+    margin-left: 15%;
+    border-radius: 10px;
+}
+
+.three {
+    background-color: brown;
+    border-radius: 12px;
+}
+
+.four {
+    background-color: rgb(46, 43, 226);
+    border-radius: 12px;
+}
+
+.item3 {}
+
+.five {
+    background-color: rgb(128, 165, 42);
+    border-radius: 12px;
+}
+
+.six {
+    background-color: blueviolet;
+    border-radius: 12px;
+}
